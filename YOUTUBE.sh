@@ -44,7 +44,7 @@ echo "INSERT LINK YOUTUBE :" | lolcat
 read link
 youtube-dl -f mp4 $link
 ls
-echo "COPY TO INTERNAL || example : cp -f 'CONTOH JUDUL-_7JygYLdlqk.mp4' /sdcard "
+echo "COPY TO INTERNAL || example : cp -f 'CONTOH JUDUL-_7JygYLdlqk.mp4' /sdcard " | lolcat
 echo "JIKA SUDAH SILAHKAN PERIKSA DI PENYIMPANAN INTERNAL" | lolcat
 
 ;;
@@ -54,7 +54,7 @@ echo "INSERT YOUTUBE LINK :" | lolcat
 read link
 youtube-dl --extract-audio --audio-format mp3 $link
 ls
-echo "COPY TO INTERNAL || example : cp -f 'CONTOH JUDUL-_7JygYLdlqk.mp3' /sdcard "
+echo "COPY TO INTERNAL || example : cp -f 'CONTOH JUDUL-_7JygYLdlqk.mp3' /sdcard " | lolcat
 echo "JIKA SUDAH SILAHKAN PERIKSA DI PENYIMPANAN INTERNAL" | lolcat
 
 ;;
