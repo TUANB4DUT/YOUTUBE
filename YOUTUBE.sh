@@ -43,6 +43,7 @@ case $pilih in
 echo "INSERT LINK YOUTUBE :" | lolcat
 read link
 youtube-dl -f mp4 $link
+echo ""
 ls
 echo ""
 echo ""
@@ -55,6 +56,7 @@ echo "JIKA SUDAH SILAHKAN PERIKSA DI PENYIMPANAN INTERNAL" | lolcat
 echo "INSERT YOUTUBE LINK :" | lolcat
 read link
 youtube-dl --extract-audio --audio-format mp3 $link
+echo ""
 ls
 echo ""
 echo ""
